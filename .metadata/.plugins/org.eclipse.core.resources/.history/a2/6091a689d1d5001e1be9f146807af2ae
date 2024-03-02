@@ -1,0 +1,21 @@
+#ifndef CANBUS_INIT_H
+#define CANBUS_H
+
+#include "stm32f7xx_hal_def.h"
+
+class Canbus_Init(){
+
+	private:
+		CAN_HandleTypeDef canbus;
+
+	public:
+
+		//Starts the Can
+		bool StartCan(){
+			HAL_CAN_START(&canbus);
+			return true;
+		}
+
+}
+
+#endif
