@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;test/Core/Src/CANBUS_INIT&apos; to &apos;CANBUS_INIT.h&apos;" description="Rename resource &apos;CANBUS_INIT&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/CANBUS_INIT" name="CANBUS_INIT.h" stamp="1708206225106" updateReferences="true"/>
-</session>
